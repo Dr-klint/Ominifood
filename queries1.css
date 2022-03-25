@@ -57,6 +57,7 @@
    .list{ 
       display: none;
    }
+
     .mobile-nav-icon{
         display: inline-block;
     }
@@ -76,6 +77,8 @@
          padding: 10px 0;
          font-size: 100%;
     }
+
+    .sticky {display: none;}
 
     .sticky .mobile-nav-icon { margin-top: 10px;}
 
