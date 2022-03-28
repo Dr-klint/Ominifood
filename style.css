@@ -165,6 +165,9 @@ section{
 .sticky .img-black {
     display: block;
     margin-top: 3px;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .sticky .list{
@@ -468,7 +471,7 @@ input[type=submit] :active  {
 /* SECTION TESTIMONIES */
 
 .section-testimonies{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../marc/Omnifood\ Contents/back-customers.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Omnifood\ Contents/back-customers.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -503,8 +506,6 @@ input[type=submit] :active  {
     padding: 2%;
     font-style: italic;
     width: 90%;
-    
-
 }
 
 

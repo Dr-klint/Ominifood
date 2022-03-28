@@ -100,6 +100,9 @@
 
     .sticky .img-black {
         margin-top: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 
    label{
@@ -180,10 +183,18 @@
             width: 100%;
             
         }
+        .testimonies p{
+            width: 100%;
+            margin-top: 5px;
+        }
 
+        .testimonies:before{
+            font-size: 250%;
+            left: -15px;
+        }
         .testimonies-features img{
-            height:55px;
-            width: 55px;
+            height:50px;
+            width: 50px;
             margin-top: -25px;
         }
 
